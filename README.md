@@ -11,7 +11,7 @@ git checkout -b nom_prenom
 npm start
 ```
 
-Une fois le test terminé, faites les commandes suivantes puis envoyer le lien de votre repos par mail.
+Une fois le test terminé, faites les commandes suivantes puis envoyez le lien de votre repos par mail.
 
 ```
 git add .
