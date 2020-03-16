@@ -7,7 +7,7 @@ Dans ce test on ne s'occupera pas du style.
 Dans le terminal :  
 
 ```
-git clone git@github.com:monDossier  
+git clone https://github.com/fbsolutions/the-react-test.git  
 npm install  
 git checkout -b nom_prenom
 ```
