@@ -1,13 +1,13 @@
 ## Test FBSOLUTIONS
 
-Dans ce test on ne s'occupera pas du style.  
+Dans ce test on ne s'occupera pas du style. Pour faire ce test, il faudra d'abord forker le repos sur votre GitHub 
 
 ### Mise en place 
 
-Dans le terminal :  
+Forkez le repos pour faire cette exercice
 
 ```
-git clone https://github.com/fbsolutions/the-react-test.git  
+git clone https://github.com/VOTRE-GITHUB/the-react-test
 npm install  
 git checkout -b nom_prenom
 ```
