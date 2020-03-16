@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
+import Instructions from './Instructions';
 
 
 const App = () => {
