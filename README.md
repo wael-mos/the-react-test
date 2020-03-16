@@ -1,7 +1,7 @@
 ## Test FBSOLUTIONS
 
 Pour pouvoir lancer ce test, il faudra au préalable installer toutes les dépendances nécessaires (npm, git...)
-Ensuite, forkez le repos sur votre GitHub et faites les commandes suivantes dans un terminal :
+Ensuite, *forkez* le repos sur votre GitHub et faites les commandes suivantes dans un terminal :
 
 ```
 git clone https://github.com/VOTRE-GITHUB/the-react-test
