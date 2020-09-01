@@ -6,17 +6,28 @@ import Form from './components/Form'
 import Info from './components/Info'
 // import Header from './Header';
 import Instructions from './Instructions';
+import FormContextProvider from './contexts/FormContext';
 
 
-const App = () => {
+const App = () =>
+{
+  
   return (
     <BrowserRouter>
       <div className="App">
         <Instructions />
         <Switch>
           <Route exact path='/' component={ Accueil } />
-          <Route path='/form' component={ Form } />
-          <Route path='/info' component={ Info } />
+          <Route path='/form'>
+            <FormContextProvider>
+              <Form />
+            </FormContextProvider>
+          </Route>
+          <Route path='/info'>
+            <FormContextProvider>
+              <Info />
+            </FormContextProvider>
+          </Route>
         </Switch>
       </div>
     </BrowserRouter>
